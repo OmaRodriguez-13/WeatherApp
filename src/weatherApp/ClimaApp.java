@@ -263,10 +263,6 @@ public class ClimaApp extends JFrame {
 					Lhumedad.setText(String.format("Humedad: %d %%", humedad));
 					Lviento.setText(String.format("Velocidad: %s m/s", velocidadViento));
 
-					// System.out.println("Humedad: " + humedad + " %");
-
-					// System.out.println("Velocidad del viento: " + velocidadViento + " m/s");
-
 					ciudad.setText("");
 					error.setText("");
 				} catch (IOException ex) {
